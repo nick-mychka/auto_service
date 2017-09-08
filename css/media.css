@@ -2,6 +2,29 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+.top_mnu a {
+	padding: 0 23px 0 49px;
+}
+
+.mc_wrap {
+    padding: 0 18%;
+}
+
+.mc_item_wrap {
+    margin: 0 0 35px 50px;
+}
+
+.mc_item_wrap:nth-child(1), .mc_item_wrap:nth-child(4) {
+	margin-left: 0;
+}
+
+.mc_item_wrap:nth-child(4), .mc_item_wrap:nth-child(5), .mc_item_wrap:nth-child(6) {
+	margin-bottom: 0;
+}
+
+footer {
+	font-size: 19px;
+}
 
 }
 
