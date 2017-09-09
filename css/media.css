@@ -1,7 +1,8 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1199px) {
+
 .top_mnu a {
 	padding: 0 23px 0 49px;
 }
@@ -22,6 +23,10 @@
 	margin-bottom: 0;
 }
 
+.s_bottom img {
+	max-width: 95%;
+}
+
 footer {
 	font-size: 19px;
 }
@@ -29,12 +34,82 @@ footer {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 991px) {
+
+.hide_content {
+	display: none;
+}
+
+.top_addr strong {
+    font-size: 30px;
+}
+
+.top_line a {
+    font-size: 20px;
+}
+
+.logo_wrap {
+	margin-left: 30px;
+}
+   
+.top_mnu a {
+	padding: 0 21px 0 44px;
+	font-size: 20px;
+	background-position: 13px -3px;
+}
+
+.top_mnu li:nth-child(2) a {
+	background-position: 14px -85px;
+}
+
+.top_mnu li:nth-child(3) a {
+	background-position: 14px -164px;
+}
+
+.top_mnu li:nth-child(4) a {
+	background-position: 13px -248px;
+}
+
+.top_mnu li:nth-child(5) a {
+	background-position: 14px -338px;
+}
+
+.top_mnu li:nth-child(6) a {
+    background-position: 14px -445px;
+}
+
+.waranty {
+	display: none;
+}
+
+.main_cats h2, h2.art_header {
+    font-size: 40px;
+}
+
+.mc_wrap {
+    padding: 0 9%;
+}
+
+.bot_mnu {
+	margin-left: 22px;
+}
+
+.sb_header h2 {
+    font-size: 35px;
+}
+
+footer a.bot_mnu_last {
+	padding-right: 0;
+}
+
+.f_count {
+	margin-top: 15px;
+}
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 
 }
 
