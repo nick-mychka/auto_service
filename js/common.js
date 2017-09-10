@@ -16,6 +16,14 @@ $(document).ready(function() {
 			$(this).parent().parent().children(".mc_item_wrap_af").slideDown();
 		}
 	});
+
+
+	$(".burger_nav").on("click", (function() {
+		$(".top_mnu ul").toggleClass("open");
+	}));
+
+
+
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");

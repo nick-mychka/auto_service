@@ -43,7 +43,7 @@ body {
 }
 header {
 	background: url(../img/top_bg.jpg) no-repeat top center / cover;
-	height: 100vh;
+	min-height: 644px;
 	position: relative;
 	font-family: "BebasBold";
 }
@@ -158,6 +158,10 @@ header .button {
 
 .button:active {
 	background-color: #b81609;
+}
+
+.burger_nav {
+	display: none;
 }
 
 .top_mnu {

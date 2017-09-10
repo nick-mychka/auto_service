@@ -49,7 +49,7 @@ footer {
 }
 
 .logo_wrap {
-	margin-left: 30px;
+	left: 14%;
 }
    
 .top_mnu a {
@@ -95,7 +95,7 @@ footer {
 }
 
 .sb_header h2 {
-    font-size: 35px;
+    font-size: 36px;
 }
 
 footer a.bot_mnu_last {
@@ -111,15 +111,253 @@ footer a.bot_mnu_last {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
+.small_dispn {
+	display: none;
+}
+
+header {
+	background: url(../img/top_bgmd.jpg) no-repeat top center / cover;
+}
+
+.ta_right {
+	padding-right: 15px;
+}
+
+.top_addr strong {
+    font-size: 27px;
+}
+
+.top_line a {
+    font-size: 17px;
+}
+
+.logo_wrap {
+	left: 0%;
+}
+
+header h1 {
+	letter-spacing: 1px;
+    color: #eeedeb;
+    margin-top: 70px;
+    font-size: 39px;
+}
+
+.burger_nav {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 62px;
+	font-size: 35px;
+	color: #fff;
+	padding-left: 15px;
+	padding-top: 7px;
+	cursor: pointer;
+
+}
+
+.top_mnu ul {
+	display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+	background-color: rgb(53, 53, 53);
+	transition-duration: .5s;
+}
+
+.top_mnu ul.open {
+	display: block;
+}
+
+.top_mnu ul li {
+	float: none;
+	text-align: center;
+	border-left: none;
+	width: 100%;
+	margin: 0;
+}
+
+.top_mnu a {
+	background-image: none;
+	display: block;
+	border-bottom: 1px solid #404040;
+}
+
+
+.mc_wrap {
+    margin-top: 10px;
+}
+
+.mc_item_wrap {
+    margin: 10px 10px 10px 10px;
+}
+
+.mc_item_wrap:nth-child(1), .mc_item_wrap:nth-child(4) {
+    margin-left: 10px;
+}
+
+.mc_item_wrap:nth-child(4), .mc_item_wrap:nth-child(5), .mc_item_wrap:nth-child(6) {
+    margin-bottom: 10px;
+}
+
+.s_black h2::before, 
+.s_black h2::after, 
+article h2.art_header::before, 
+article h2.art_header::after {
+	display: none;
+}
+
+	
+.main_cats h2, h2.art_header {
+    font-size: 36px;
+}
+
+.sb_header h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sb_content {
+	margin-top: 45%;
+	text-align: center;
+}
+
+.s_bottom img {
+    max-width: 60%;
+    left: 20%;
+}
+
+footer {
+	text-align: center;
+}
+
+footer li {
+    float: none;
+    border-bottom: 1px solid #564a4a;
+    padding: 7px;
+}
+
+footer li:hover {
+    background-color: rgba(245, 245, 245, 0.33);
+}
+
+.bot_mnu {
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.sb_header.button_cont, .f_count {
+    text-align: center;
+}
+
+.f_count {
+	display: none;
+}
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+.exsmall_dispn {
+	display: none;
+}
+
+body {
+	font-size: 15px;
+}
+
+header {
+	background: url(../img/top_bg_sm.jpg) no-repeat top center / cover;
+}
+
+.logo_wrap {
+	left: 55%;
+}
+
+header h1 {
+    color: #f3f0e9;
+    margin-top: 85px;
+    font-size: 37px;
+}
+
+.buttons_top {
+	text-align: center;
+}
+
+.button {
+	font-size: 17px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 21px;
+}
+
+.st_button {
+	padding: 7px 0 0 63px;
+    line-height: 16px;
+}
+
+header .button {
+	margin-right: 10px;
+    margin-top: 15px;
+}
+
+.main_cats h2, h2.art_header {
+    font-size: 30px;
+}
+
+.sb_header h2 {
+    font-size: 27px;
+}
+
+footer {
+	font-size: 18px;
+}
+
+footer li {
+	margin-right: 7px;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+.logo_wrap {
+    left: 49%;
+}
+
+}
+
+@media only screen and (max-width: 370px) {
+
+.logo_wrap {
+    left: 44%;
+}
+
+}
+
+@media only screen and (max-width: 340px) {
+
+.logo_wrap {
+    left: 36%;
+}
+
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
+header h1 {
+	letter-spacing: 2px;
+    color: #fff;
+}
+
+footer {
+	font-size: 16px;
+}
+
+footer li {
+	margin-right: 23px;
+}
 
 }
 
